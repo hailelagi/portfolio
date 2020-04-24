@@ -1,0 +1,20 @@
+h2{
+    text-align: center;
+    margin: 0.5em;
+    font-size: 150%;
+}
+.interest {
+    display: inline-block;
+    margin: 1em;
+    border: solid 1px black;
+    padding: 3em;
+    width: 1fr;
+    height: 5em;
+}
+
+.interest-align{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
