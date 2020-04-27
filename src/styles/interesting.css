@@ -1,20 +1,35 @@
-h2{
-    text-align: center;
-    margin: 0.5em;
-    font-size: 150%;
-}
-.interest {
-    display: inline-block;
-    margin: 1em;
-    border: solid 1px black;
-    padding: 3em;
-    width: 1fr;
-    height: 5em;
+h2 {
+  text-align: center;
+  margin: 0.5em;
+  font-size: 150%;
 }
 
-.interest-align{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
+.interest {
+  display: inline-block;
+  border: none;
+  -webkit-box-shadow: 0px 0px 113px -50px rgba(56, 56, 56, 0.88);
+  -moz-box-shadow: 0px 0px 113px -50px rgba(56, 56, 56, 0.88);
+  box-shadow: 0px 0px 113px -50px rgba(56, 56, 56, 0.88);
+  padding: 4em;
+  width: 1fr;
+  height: 5em;
+  text-align: center;
+  margin: 1em;
+  transition: background-color ease-in-out 1.4s;
+}
+
+.interest:hover {
+  cursor: pointer;
+  background-color: #d7d7d7;
+}
+
+.interest p {
+  margin: 1em;
+}
+
+.interest-align {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
 }

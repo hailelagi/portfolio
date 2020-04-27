@@ -1,9 +1,9 @@
 import React from "react";
 import Interest from "./Interest";
 import {
-  faHourglassEnd,
-  faDesktop,
-  faFileSignature,
+  faChartLine,
+  faLaptopCode,
+  faMobileAlt,
 } from "@fortawesome/free-solid-svg-icons";
 
 function Interests() {
@@ -11,9 +11,9 @@ function Interests() {
     <section className="interests">
       <h2>Interests</h2>
       <div className="interest-align">
-        <Interest title="Web development" icon={faDesktop} />
-        <Interest title="Scientific computing" icon={faHourglassEnd} />
-        <Interest title="Mobile development" icon={faFileSignature} />
+        <Interest title="Web development" icon={faLaptopCode} color="#B11030"/>
+        <Interest title="Scientific computing" icon={faChartLine} color="#24A159" />
+        <Interest title="Mobile development" icon={faMobileAlt} color="#4B6A88" />
       </div>
     </section>
   );

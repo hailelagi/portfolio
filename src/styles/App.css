@@ -38,7 +38,7 @@ nav li a:hover {
   color: white;
 }
 #name {
-  color: #FF4500;
+  color: #ff4500;
   font-weight: 800;
 }
 
@@ -63,7 +63,7 @@ nav li a:hover {
   box-shadow: 0 4px 17px -6px rgba(0, 0, 0, 0.75);
 }
 
-.call-to-action button:hover{
+.call-to-action button:hover {
   background-color: #009cb0;
 }
 

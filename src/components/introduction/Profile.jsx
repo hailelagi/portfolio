@@ -1,5 +1,11 @@
 import React from "react";
 import profile from "../../img/profile.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+    faClipboardList,
+    faCloudDownloadAlt
+} from "@fortawesome/free-solid-svg-icons";
+
 
 function Profile() {
   return (
@@ -14,12 +20,12 @@ function Profile() {
       <h1>
         {" "}
         Hi, I'm <span id="name">Haile Lagi</span> - chemical engineering
-        student, programmer and something clever or something. Cool tag bro.
-          Check me out. Hoorah.
+        student, programmer and web developer. Take a look around the awesome stuff I build.
+          See anything you like, buy me coffee?
       </h1>
       <div className={"call-to-action"}>
-        <button>download my resume</button>
-        <button>portfolio</button>
+        <button><FontAwesomeIcon icon={faCloudDownloadAlt} size="sm" /> download my resume</button>
+        <button><FontAwesomeIcon icon={faClipboardList} size="sm" /> portfolio</button>
       </div>
     </header>
   );

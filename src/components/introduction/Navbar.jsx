@@ -4,8 +4,8 @@ export default function Navbar() {
     return (
         <nav>
             <ul className={"top-nav"}>
-                <li><a href="Introduction.jsx">about me</a></li>
-                <li><a href="Introduction.jsx">skills</a></li>
+                <li><a href={"#introduction"}>about me</a></li>
+                <li><a href={"#skills"}>skills</a></li>
                 <li><a href="Introduction.jsx">portfolio</a></li>
             </ul>
         </nav>

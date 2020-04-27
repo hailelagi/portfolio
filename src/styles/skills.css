@@ -1,0 +1,144 @@
+.skills h2 {
+  margin-bottom: 2em;
+}
+h3 {
+  text-align: center;
+  margin: 1.5em;
+}
+
+.top-skills {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill {
+  margin: 1em 3em;
+}
+
+/*skill percentage svg*/
+
+.skills .skill #svg circle {
+  stroke-dashoffset: 0;
+  transition: stroke-dashoffset 10s linear;
+  stroke: #676767;
+  stroke-width: 0.5em;
+}
+
+.skills .skill #svg #bar {
+  stroke: #648fcf;
+}
+
+.percentage {
+  font-size: 200%;
+  font-weight: lighter;
+}
+
+.info {
+  text-align: center;
+}
+
+/*OTHER SKILLS LAYOUT*/
+.other-skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.other-skill {
+  margin: auto;
+  padding: 1em;
+}
+
+/*PROGRESS BAR*/
+
+.progress-bar {
+  position: relative;
+  height: 0.5em;
+  width: 20em;
+  border-radius: 50px;
+  border: none;
+  background-color: #dadada;
+}
+
+.fill {
+  background: #648fcf;
+  height: 100%;
+  border-radius: inherit;
+  transition: width 1s ease-in;
+}
+
+/*TODO find a work around dynamically
+   updating pseudo selectors*/
+
+/*Figma*/
+
+.other-mastery {
+  position: relative;
+  font-size: smaller;
+}
+
+/*Progress for Each skill!!*/
+/*This can be refactored somehow,
+My CSS skills just aren't speaking
+to me right now*/
+
+.git:after,
+.html-css:after,
+.jest:after,
+.redux:after,
+.react-native:after,
+.bootstrap:after,
+.pytest:after,
+.figma:after,
+.numpy:after{
+  position: absolute;
+  bottom: -2px;
+  width: 0.85em;
+  height: 0.85em;
+  content: "";
+  border-radius: 50%;
+  background-color: #648fcf;
+}
+
+.git:after {
+  left: 12.5em;
+}
+.html-css:after {
+  left: 15.5em;
+}
+.jest:after{
+  left: 3.5em;
+}
+.redux:after{
+  left: 4.5em;
+}
+.react-native:after{
+  left: 5.5em;
+}
+.bootstrap:after{
+  left: 10.5em;
+}
+.pytest:after {
+  left: 3.5em;
+}
+.figma:after {
+  left: 14.5em;
+}
+.numpy:after{
+  left: 4.5em;
+}
+
+/*Media query for skills*/
+/*Tablets*/
+@media only screen and (max-width: 1000px) {
+  .other-skills {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+/*Most mobile*/
+@media only screen and (max-width: 600px) {
+  .other-skills {
+    grid-template-columns: 1fr;
+  }
+}

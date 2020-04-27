@@ -6,7 +6,7 @@ class Introduction extends Component {
   render() {
     return (
       <React.Fragment>
-        <section className={"introduction"}>
+        <section id="introduction" className={"introduction"}>
           <Navbar />
           <Profile />
         </section>
