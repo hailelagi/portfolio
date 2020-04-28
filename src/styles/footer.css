@@ -1,0 +1,32 @@
+footer h2 {
+    margin: 2em;
+}
+.summary{
+    text-align: center;
+    color: #fff;
+    background-color: #009FD4;
+    padding: 2em;
+}
+
+.summary img{
+    border-radius: 50%;
+}
+
+.summary a{
+    margin: 0.1em;
+    color: black;
+}
+
+.interests{
+    list-style-type: none;
+    padding: 1em;
+    margin: 0.5em;
+}
+
+.social-media{
+    margin: 1em;
+}
+
+.social-media a{
+    padding: 0.5em;
+}

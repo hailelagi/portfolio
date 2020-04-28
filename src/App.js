@@ -4,9 +4,11 @@ import "./styles/App.css";
 import "./styles/interesting.css";
 import "./styles/skills.css";
 import "./styles/education.css";
+import "./styles/footer.css";
 import Interests from "./components/interests/Interests";
 import Skills from "./components/skills/Skills";
 import Education from "./components/education/Education";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
       <Interests />
       <Skills />
       <Education />
+      <Footer />
     </React.Fragment>
   );
 }

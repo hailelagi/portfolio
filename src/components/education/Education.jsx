@@ -4,28 +4,45 @@ import {
   faFreeCodeCamp,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Timeline from "./Timeline";
 
 function Education() {
   return (
     <section className="education">
       <h2>Education</h2>
-      <h3>Coding challenges</h3>
+      <Timeline />
+      <h3>Programming challenges</h3>
+      <p id="description">
+        I often attempt various coding challenges, if you're
+        curious about where I stand in the leader boards
+        <span role="img" aria-label="slightly smiling face">
+          🙂
+        </span>
+      </p>
       <div className="challenges">
-        <img
-          src="https://www.codewars.com/users/obsessedu/badges/micro"
-          height="55px"
-          alt="codewars"
-        />
-        <FontAwesomeIcon icon={faHackerrank} color="#2BBE5E" size="5x" />
-        <FontAwesomeIcon icon={faFreeCodeCamp} color="#0A0A23" size="5x" />
+        <a
+          href={"https://www.codewars.com/users/obsessedu/"}
+          className="challenge"
+        >
+          <img
+            src="https://www.codewars.com/users/obsessedu/badges/micro"
+            height="40px"
+            alt="codewars"
+          />
+        </a>
+        <a
+          href={"https://www.hackerrank.com/obsessedyouth"}
+          className="challenge"
+        >
+          <FontAwesomeIcon icon={faHackerrank} color="#2BBE5E" size="5x" />
+        </a>
+        <a
+          href={"https://www.freecodecamp.org/obsessedyouth"}
+          className="challenge"
+        >
+          <FontAwesomeIcon icon={faFreeCodeCamp} color="#0A0A23" size="5x" />
+        </a>
       </div>
-        <h3>Community, hackathons and events</h3>
-        <ul>
-            <li>Major League Hacking</li>
-            <li>Andela Learning Community</li>
-            <li>Python Nigeria</li>
-        </ul>
-
     </section>
   );
 }

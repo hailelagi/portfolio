@@ -38,7 +38,7 @@ nav li a:hover {
   color: white;
 }
 #name {
-  color: #ff4500;
+  color: #1C2833;
   font-weight: 800;
 }
 
@@ -51,7 +51,7 @@ nav li a:hover {
 
 .call-to-action button {
   margin: 1em;
-  background: #008fa1;
+  background: #435c72;
   color: #fff;
   padding: 1em;
   border-radius: 2px;
@@ -64,9 +64,9 @@ nav li a:hover {
 }
 
 .call-to-action button:hover {
-  background-color: #009cb0;
+  background-color: #4c667d;
 }
 
 .introduction {
-  background-color: #00b5f3;
+  background-color: #009FD4;
 }

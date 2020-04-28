@@ -5,10 +5,14 @@
       <change afterPath="$PROJECT_DIR$/public/terminal-solid-192.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/terminal-solid-512.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/education/Education.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/education/Timeline.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/education/TimelineItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/footer/Footer.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/skills/ProgressBar.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/skills/Skill.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/skills/Skills.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/styles/education.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/footer.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/styles/skills.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/user.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/user.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -149,6 +153,7 @@
       <workItem from="1587748228497" duration="16822000" />
       <workItem from="1587873146498" duration="8837000" />
       <workItem from="1587888912736" duration="52751000" />
+      <workItem from="1588018656273" duration="26461000" />
     </task>
     <servers />
   </component>
@@ -199,9 +204,9 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="37" y="212" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1587874091204" />
-    <state x="4" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1587959847059">
+    <state x="4" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1588036815485">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="4" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1587959847059" />
+    <state x="4" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1588036815485" />
   </component>
 </project>
