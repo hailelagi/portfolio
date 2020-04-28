@@ -2,13 +2,17 @@
   margin: 0;
 }
 
+body{
+  background-color: #f5f5f5;
+}
+
 /*Introduction navigation */
 nav li,
 nav li a {
   list-style-type: none;
   text-decoration: none;
   margin-left: 1.2em;
-  color: white;
+  color: #f4f4f4;
 }
 
 nav li a:hover {
@@ -34,11 +38,11 @@ nav li a:hover {
   width: 60%;
   font-size: 150%;
   font-weight: 500;
-  margin: 0.5em;
-  color: white;
+  margin: 0.3em;
+  color: #f4f4f4;
 }
 #name {
-  color: #1C2833;
+  color: #81CFE0;
   font-weight: 800;
 }
 
@@ -64,9 +68,9 @@ nav li a:hover {
 }
 
 .call-to-action button:hover {
-  background-color: #4c667d;
+  background-color: #394b5c;
 }
 
 .introduction {
-  background-color: #009FD4;
+  background-color: #0A3055;
 }

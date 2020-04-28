@@ -1,11 +1,9 @@
-footer h2 {
-    margin: 2em;
-}
+
 .summary{
     text-align: center;
-    color: #fff;
-    background-color: #009FD4;
-    padding: 2em;
+    color: #f4f4f4;
+    background-color: #0A3055;
+    padding: 1em;
 }
 
 .summary img{
@@ -14,7 +12,7 @@ footer h2 {
 
 .summary a{
     margin: 0.1em;
-    color: black;
+    color: #A9A9A9;
 }
 
 .interests{

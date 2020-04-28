@@ -12,13 +12,7 @@ function Education() {
       <h2>Education</h2>
       <Timeline />
       <h3>Programming challenges</h3>
-      <p id="description">
-        I often attempt various coding challenges, if you're
-        curious about where I stand in the leader boards
-        <span role="img" aria-label="slightly smiling face">
-          🙂
-        </span>
-      </p>
+
       <div className="challenges">
         <a
           href={"https://www.codewars.com/users/obsessedu/"}

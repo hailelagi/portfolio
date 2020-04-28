@@ -9,30 +9,29 @@ import {
 import {faCheck} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import profile from "../../img/profile.jpg";
-import { faFreeCodeCamp } from "@fortawesome/free-brands-svg-icons";
+import profile from "../../img/profile.png";
 
 function Footer() {
   return (
     <footer>
-      <h2>Get in Touch</h2>
       <div className="summary">
-        <img src={profile} width={100} height={100} alt={"profile"} />
+        <h2>Get in Touch</h2>
+        <img src={profile} alt={"profile"} />
         <p>
           I'm not currently looking for work but I am open to opportunities to
           collaborate on interesting projects.
         </p>
         <ul className="interests">
           <li>
-            <FontAwesomeIcon icon={faCheck} color="#005500" size="sm" />
+            <FontAwesomeIcon icon={faCheck} color="#9ACD32" size="sm" />
             Web development using the MERN stack
           </li>
           <li>
-            <FontAwesomeIcon icon={faCheck} color="#005500" size="sm" />
+            <FontAwesomeIcon icon={faCheck} color="#9ACD32" size="sm" />
             Simulation based optimization problems using python (sciPy, numpy,matplotlib and pandas etc)
           </li>
           <li>
-            <FontAwesomeIcon icon={faCheck} color="#005500" size="sm" />
+            <FontAwesomeIcon icon={faCheck} color="#9ACD32" size="sm" />
             Mobile development of simple apps using React-native or Ionic
           </li>
         </ul>

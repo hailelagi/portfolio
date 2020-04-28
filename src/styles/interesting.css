@@ -1,11 +1,12 @@
 h2 {
   text-align: center;
-  margin: 0.5em;
   font-size: 150%;
+  padding: 0.5em;
 }
 
 .interest {
   display: inline-block;
+  background-color: #fff;
   border: none;
   -webkit-box-shadow: 0px 0px 113px -50px rgba(56, 56, 56, 0.88);
   -moz-box-shadow: 0px 0px 113px -50px rgba(56, 56, 56, 0.88);

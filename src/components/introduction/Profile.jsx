@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "../../img/profile.jpg";
+import profile from "../../img/profile.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faClipboardList,
@@ -13,8 +13,6 @@ function Profile() {
       <img
         id="profile-pic"
         src={profile}
-        width={150}
-        height={150}
         alt={"profile"}
       />
       <h1>

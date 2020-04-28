@@ -1,5 +1,12 @@
+.skills{
+  background-color: #ffffff;
+  width: 90%;
+  margin: auto;
+  border-radius: 8px;
+}
 .skills h2 {
-  margin-bottom: 2em;
+  background-color: #f4f4f4;
+  padding-bottom: 1.4em;
 }
 h3 {
   text-align: center;
@@ -22,12 +29,12 @@ h3 {
 .skills .skill #svg circle {
   stroke-dashoffset: 0;
   transition: stroke-dashoffset 10s linear;
-  stroke: #676767;
+  stroke: #dadada;
   stroke-width: 0.5em;
 }
 
 .skills .skill #svg #bar {
-  stroke: #648fcf;
+  stroke: #2574A9;
 }
 
 .percentage {
@@ -43,10 +50,13 @@ h3 {
 .other-skills {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  background-color: #fff;
+  margin: auto;
+  width: 95%;
+  border-radius: 5px;
 }
 
 .other-skill {
-  margin: auto;
   padding: 1em;
 }
 
@@ -62,7 +72,7 @@ h3 {
 }
 
 .fill {
-  background: #648fcf;
+  background: #2574A9;
   height: 100%;
   border-radius: inherit;
   transition: width 1s ease-in;
@@ -91,14 +101,14 @@ to me right now*/
 .bootstrap:after,
 .pytest:after,
 .figma:after,
-.numpy:after{
+.numpy:after {
   position: absolute;
   bottom: -2px;
   width: 0.85em;
   height: 0.85em;
   content: "";
   border-radius: 50%;
-  background-color: #648fcf;
+  background-color: #2574A9;
 }
 
 .git:after {
@@ -107,16 +117,16 @@ to me right now*/
 .html-css:after {
   left: 15.5em;
 }
-.jest:after{
+.jest:after {
   left: 3.5em;
 }
-.redux:after{
+.redux:after {
   left: 4.5em;
 }
-.react-native:after{
+.react-native:after {
   left: 5.5em;
 }
-.bootstrap:after{
+.bootstrap:after {
   left: 10.5em;
 }
 .pytest:after {
@@ -125,7 +135,7 @@ to me right now*/
 .figma:after {
   left: 14.5em;
 }
-.numpy:after{
+.numpy:after {
   left: 4.5em;
 }
 
@@ -138,6 +148,9 @@ to me right now*/
 }
 /*Most mobile*/
 @media only screen and (max-width: 600px) {
+  .skills{
+    width: 77%;
+  }
   .other-skills {
     grid-template-columns: 1fr;
   }

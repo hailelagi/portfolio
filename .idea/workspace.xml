@@ -11,6 +11,7 @@
       <change afterPath="$PROJECT_DIR$/src/components/skills/ProgressBar.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/skills/Skill.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/skills/Skills.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/profile.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/styles/education.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/styles/footer.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/styles/skills.css" afterDir="false" />
@@ -30,6 +31,7 @@
       <change beforePath="$PROJECT_DIR$/src/components/introduction/Introduction.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/introduction/Introduction.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/introduction/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/introduction/Navbar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/introduction/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/introduction/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/profile.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/serviceWorker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
@@ -153,7 +155,8 @@
       <workItem from="1587748228497" duration="16822000" />
       <workItem from="1587873146498" duration="8837000" />
       <workItem from="1587888912736" duration="52751000" />
-      <workItem from="1588018656273" duration="26461000" />
+      <workItem from="1588018656273" duration="35802000" />
+      <workItem from="1588059693589" duration="2895000" />
     </task>
     <servers />
   </component>
