@@ -3,11 +3,19 @@
   width: 90%;
   margin: auto;
   border-radius: 8px;
+  padding-bottom: 1em;
 }
 .skills h2 {
   background-color: #f4f4f4;
   padding-bottom: 1.4em;
 }
+.skills p{
+  color: #696969;
+}
+.skills h4{
+  color: #1978D4;
+}
+
 h3 {
   text-align: center;
   margin: 1.5em;
@@ -26,14 +34,14 @@ h3 {
 
 /*skill percentage svg*/
 
-.skills .skill #svg circle {
+.skills .skill .svg circle {
   stroke-dashoffset: 0;
   transition: stroke-dashoffset 10s linear;
   stroke: #dadada;
   stroke-width: 0.5em;
 }
 
-.skills .skill #svg #bar {
+.skills .skill .svg #bar {
   stroke: #2574A9;
 }
 
@@ -140,18 +148,46 @@ to me right now*/
 }
 
 /*Media query for skills*/
-/*Tablets*/
-@media only screen and (max-width: 1000px) {
+/*Tablets and small laptops*/
+@media only screen and (max-width: 1024px) {
   .other-skills {
     grid-template-columns: 1fr 1fr;
   }
+  .other-skill {
+  padding: 0.5em;
+}
+
 }
 /*Most mobile*/
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .skills{
-    width: 77%;
+    width: 80%;
   }
   .other-skills {
     grid-template-columns: 1fr;
   }
+    .other-skill {
+  padding: 0.3em;
+}
+
+}
+
+/*Really tiny screens*/
+@media only screen and (max-width: 380px) {
+  .skills {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .skills {
+    width: 100%;
+  }
+  .other-skill {
+  padding: 0;
+}
+  .progress-bar {
+  width: 19.5em;
+}
+
 }

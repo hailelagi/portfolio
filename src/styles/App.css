@@ -2,26 +2,19 @@
   margin: 0;
 }
 
+.warning{
+  background-color: orange;
+  color: white;
+  font-size: 300%;
+  text-align: center;
+}
+
 body{
   background-color: #f5f5f5;
 }
 
-/*Introduction navigation */
-nav li,
-nav li a {
-  list-style-type: none;
-  text-decoration: none;
-  margin-left: 1.2em;
-  color: #f4f4f4;
-}
-
-nav li a:hover {
-  text-decoration: underline;
-}
-
-.top-nav {
-  display: flex;
-  padding: 1em;
+.introduction {
+  background-color: #0A3055;
 }
 
 /*Profile*/
@@ -34,7 +27,6 @@ nav li a:hover {
 }
 
 .profile h1 {
-  text-align: justify-all;
   width: 60%;
   font-size: 150%;
   font-weight: 500;
@@ -71,6 +63,3 @@ nav li a:hover {
   background-color: #394b5c;
 }
 
-.introduction {
-  background-color: #0A3055;
-}

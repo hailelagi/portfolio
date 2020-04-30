@@ -21,16 +21,18 @@ function Education() {
           <img
             src="https://www.codewars.com/users/obsessedu/badges/micro"
             height="40px"
-            alt="codewars"
+            alt="code wars"
           />
         </a>
         <a
+            aria-label="hacker rank"
           href={"https://www.hackerrank.com/obsessedyouth"}
           className="challenge"
         >
           <FontAwesomeIcon icon={faHackerrank} color="#2BBE5E" size="5x" />
         </a>
         <a
+            aria-label="free code camp"
           href={"https://www.freecodecamp.org/obsessedyouth"}
           className="challenge"
         >

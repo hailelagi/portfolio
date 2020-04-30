@@ -4,6 +4,11 @@
   margin: auto;
 }
 
+.education h2{
+  padding: 0.5em;
+  padding-top: 2em;
+}
+
 .education .challenges {
   display: flex;
   flex-flow: row wrap;
@@ -34,7 +39,7 @@
   display: flex;
   position: relative;
   margin: 0.5em 0;
-  width: 50%;
+  width: 70%;
 }
 
 .timeline-item:nth-child(odd) {
@@ -139,4 +144,8 @@
   .timeline-item-content {
     padding-top: 2em;
   }
+  .timeline-item {
+  width: 85%;
+}
+
 }

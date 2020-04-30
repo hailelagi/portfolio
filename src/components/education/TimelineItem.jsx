@@ -42,7 +42,7 @@ class TimelineItem extends Component {
             <a href="https://www.futminna.edu.ng/">{this.state.data.heading}</a>
           </h5>
           <p>{this.state.data.text}</p>
-          {this.state.data.link && (
+          <del>
             <a
               href={this.state.data.link.url}
               target="_blank"
@@ -50,7 +50,8 @@ class TimelineItem extends Component {
             >
               {this.state.data.link.text}
             </a>
-          )}
+          </del>
+          <span>(suspended due to covid-19)</span>
           <span className="circle">
             <FontAwesomeIcon icon={faGraduationCap} color="#777" size="1x" />
           </span>

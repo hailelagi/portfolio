@@ -4,17 +4,22 @@
     <list default="true" id="ab63bfac-5bdf-4557-8277-469b1ec6f4bd" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/public/terminal-solid-192.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/terminal-solid-512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Default.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/education/Education.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/education/Timeline.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/education/TimelineItem.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/footer/Footer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/portfolio/Card.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/portfolio/Portfolio.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/skills/ProgressBar.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/skills/Skill.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/skills/Skills.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/img/profile.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/styles/education.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/styles/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/portfolio.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/styles/skills.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/topnavbar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/user.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/user.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
@@ -29,7 +34,7 @@
       <change beforePath="$PROJECT_DIR$/src/components/interests/Interest.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/interests/Interest.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/interests/Interests.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/interests/Interests.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/introduction/Introduction.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/introduction/Introduction.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/introduction/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/introduction/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/introduction/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopNavbar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/introduction/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/introduction/Profile.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/img/profile.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
@@ -89,9 +94,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\user\AppData\Roaming\npm\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PyCharm 2019.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\PycharmProjects\portfolio\src\components" />
       <recent name="C:\Users\user\PycharmProjects\portfolio\src\img" />
       <recent name="C:\Users\user\PycharmProjects\portfolio\src\styles" />
       <recent name="C:\Users\user\PycharmProjects\portfolio\src" />
@@ -156,7 +163,11 @@
       <workItem from="1587873146498" duration="8837000" />
       <workItem from="1587888912736" duration="52751000" />
       <workItem from="1588018656273" duration="35802000" />
-      <workItem from="1588059693589" duration="2895000" />
+      <workItem from="1588059693589" duration="8316000" />
+      <workItem from="1588105792775" duration="599000" />
+      <workItem from="1588116609175" duration="4900000" />
+      <workItem from="1588188001720" duration="1050000" />
+      <workItem from="1588193767764" duration="35093000" />
     </task>
     <servers />
   </component>

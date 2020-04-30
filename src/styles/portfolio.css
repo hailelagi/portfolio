@@ -1,0 +1,81 @@
+.portfolio h1 {
+  font-size: 200%;
+}
+.portfolio h2 {
+  margin: 0.5em;
+}
+.portfolio header {
+  color: #f4f4f4;
+  background-color: #0a3055;
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+.portfolio header p {
+  font-size: 150%;
+  padding: 2.1em;
+  text-align: center;
+}
+
+.stack {
+  display: flex;
+  justify-content: center;
+  margin: 0.2em;
+}
+
+.stack svg {
+  margin-right: 0.2em;
+}
+
+.card-align {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 1em;
+  width: 22em;
+  background-color: #fff;
+  border: none;
+  -webkit-box-shadow: 0px 0px 113px -50px rgba(56, 56, 56, 0.88);
+  -moz-box-shadow: 0px 0px 113px -50px rgba(56, 56, 56, 0.88);
+  box-shadow: 0px 0px 113px -50px rgba(56, 56, 56, 0.88);
+  text-align: center;
+  border-radius: 10px;
+}
+
+.card img {
+  padding: 1.5em 1.5em 0.5em;
+}
+
+.card p {
+  width: 80%;
+  margin: auto;
+
+}
+
+.card button {
+  display: inline-block;
+  padding: 0.5em;
+  margin: 0.7em 0.7em 1.5em;
+  background: #435c72;
+  color: #fff;
+  text-transform: uppercase;
+  border-style: none;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 4px 17px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0 4px 17px -6px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 4px 17px -6px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: #394b5c;
+}
+
+.card:hover {
+  transition: ease-out 1s;
+}

@@ -4,7 +4,7 @@ function Skill(props) {
     return (
         <div className="skill">
             <svg
-                id="svg"
+                className="svg"
                 width="180"
                 height="180"
                 version="1.1"

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import profile from "../../img/profile.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -23,7 +24,7 @@ function Profile() {
       </h1>
       <div className={"call-to-action"}>
         <button><FontAwesomeIcon icon={faCloudDownloadAlt} size="sm" /> download my resume</button>
-        <button><FontAwesomeIcon icon={faClipboardList} size="sm" /> portfolio</button>
+        <Link to="/portfolio"><button><FontAwesomeIcon icon={faClipboardList} size="sm" /> portfolio</button></Link>
       </div>
     </header>
   );
