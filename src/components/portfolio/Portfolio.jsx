@@ -12,6 +12,8 @@ import {
   faPython,
   faReact,
 } from "@fortawesome/free-brands-svg-icons";
+import pointing from "../../img/pointing.png";
+import eyes from "../../img/eyes.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 class Portfolio extends Component {
@@ -21,11 +23,32 @@ class Portfolio extends Component {
         <header>
           <h1>Projects</h1>
           <p>
-            Some introduction about the projects section Some introduction about
-            Some introduction about the projects section Some introduction about
-            the projects section Some introduction about the projects section
-            Some introduction about the projects section Some introduction about
-            asfsf sdsflsk lsfksl jsfslkd dsfdfsdfs s
+            I come from a background in science & engineering and apply
+            technical knowledge of software with analytical and excellent
+            problem solving skills to build consistently efficient and scalable
+            software to solve human problems. See for yourself
+            <img
+              src={eyes}
+              width="30px"
+              alt="pointing emoji hand"
+              className="pointing"
+            />
+          </p>
+          <p>
+            Reach out
+            <img
+              src={pointing}
+              width="30px"
+              alt="pointing emoji hand"
+              className="pointing"
+            />
+            <a
+              href="mailto:hailelagi@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              hailelagi@gmail.com
+            </a>
           </p>
         </header>
         <article id="web-development">
@@ -42,7 +65,10 @@ class Portfolio extends Component {
           </div>
           <div className="card-align">
             <Card
+              card="card"
               title="Project one"
+              width="500px"
+              height="250px"
               summary="Some placeholder text for project description"
               image=""
               tech="Technologies: Javascript, Node.js, Python"
@@ -50,7 +76,9 @@ class Portfolio extends Component {
               deploy="https://netlify.com"
             />
             <Card
+              card="card"
               title="Project two"
+               width="500px" height="250px"
               summary="Some placeholder text for project description"
               image=""
               tech="Technologies: Javascript, Node.js, Python"
@@ -58,7 +86,9 @@ class Portfolio extends Component {
               deploy="https://netlify.com"
             />
             <Card
+              card="card"
               title="Project three"
+              width="500px" height="250px"
               summary="Some placeholder text for project description"
               image=""
               tech="Technologies: Javascript, Node.js, Python"
@@ -75,7 +105,9 @@ class Portfolio extends Component {
           </div>
           <div className="card-align">
             <Card
+              card="card"
               title="Project one"
+              width="500px" height="250px"
               summary="Some placeholder text for project description"
               image=""
               tech="Technologies: Javascript, Node.js, Python"
@@ -83,7 +115,9 @@ class Portfolio extends Component {
               deploy="https://netlify.com"
             />
             <Card
+              card="card"
               title="Project two"
+              width="500px" height="250px"
               summary="Some placeholder text for project description"
               image=""
               tech="Technologies: Javascript, Node.js, Python"
@@ -101,7 +135,9 @@ class Portfolio extends Component {
           </div>
           <div className="card-align">
             <Card
+              card="card"
               title="Project name"
+              width="500px" height="250px"
               summary="Some placeholder text for project description"
               image=""
               tech="Technologies: Javascript, Node.js, Python"

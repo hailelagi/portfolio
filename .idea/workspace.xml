@@ -6,6 +6,8 @@
       <change afterPath="$PROJECT_DIR$/public/terminal-solid-512.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/Default.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/Footer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TopProject.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TopProjects.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/education/Education.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/education/Timeline.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/education/TimelineItem.jsx" afterDir="false" />
@@ -14,12 +16,19 @@
       <change afterPath="$PROJECT_DIR$/src/components/skills/ProgressBar.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/skills/Skill.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/skills/Skills.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Artboard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/eyes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/pointing.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/img/profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/right_i.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/waving_hand_sign_emoji.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/styles/education.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/styles/footer.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/styles/portfolio.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/styles/skills.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/styles/topnavbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/topprojects.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/user.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/user.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
@@ -98,8 +107,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\user\PycharmProjects\portfolio\src\components" />
       <recent name="C:\Users\user\PycharmProjects\portfolio\src\img" />
+      <recent name="C:\Users\user\PycharmProjects\portfolio\src\components" />
       <recent name="C:\Users\user\PycharmProjects\portfolio\src\styles" />
       <recent name="C:\Users\user\PycharmProjects\portfolio\src" />
       <recent name="C:\Users\user\PycharmProjects\portfolio\src\components\introduction" />
@@ -167,7 +176,8 @@
       <workItem from="1588105792775" duration="599000" />
       <workItem from="1588116609175" duration="4900000" />
       <workItem from="1588188001720" duration="1050000" />
-      <workItem from="1588193767764" duration="35093000" />
+      <workItem from="1588193767764" duration="36042000" />
+      <workItem from="1588580222473" duration="32036000" />
     </task>
     <servers />
   </component>

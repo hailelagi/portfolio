@@ -28,10 +28,9 @@ export default class TopNavbar extends React.Component {
           </li>
 
           <li>
-            <NavLink to="/portfolio">portfolio</NavLink>
+            <NavLink to="/projects">projects</NavLink>
           </li>
         </ul>
-        <p className="warning">This website is under active development ⚠⚠️⚠️⚠️⚠️</p>
       </nav>
     );
   }

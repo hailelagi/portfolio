@@ -1,12 +1,5 @@
-.education {
-  background-color: #f4f4f4;
-  width: 90%;
-  margin: auto;
-}
-
 .education h2{
-  padding: 0.5em;
-  padding-top: 2em;
+  margin-top: 1em;
 }
 
 .education .challenges {

@@ -8,13 +8,28 @@
   color: #f4f4f4;
   background-color: #0a3055;
   text-align: center;
+  font-family: Apercu, "Source Sans Pro", system, system-ui, -apple-system,
+    BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
   padding-bottom: 2em;
 }
 
 .portfolio header p {
   font-size: 150%;
-  padding: 2.1em;
   text-align: center;
+  width: 80%;
+  margin: auto;
+  padding: 1em;
+}
+
+.portfolio a {
+  color: #a9a9a9;
+}
+
+.pointing {
+  position: relative;
+  top: 0.3rem;
+  left: 0.5rem;
+  margin-right: 0.5em;
 }
 
 .stack {
@@ -54,7 +69,6 @@
 .card p {
   width: 80%;
   margin: auto;
-
 }
 
 .card button {

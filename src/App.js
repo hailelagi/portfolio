@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./styles/App.css";
 import "./styles/topnavbar.css";
 import "./styles/portfolio.css";
+import "./styles/topprojects.css";
 import "./styles/interesting.css";
 import "./styles/skills.css";
 import "./styles/education.css";
@@ -17,6 +18,7 @@ import Skills from "./components/skills/Skills";
 import Education from "./components/education/Education";
 import Footer from "./components/Footer";
 import Default from "./components/Default";
+import TopProjects from "./components/TopProjects";
 
 function App() {
   return (
@@ -25,6 +27,7 @@ function App() {
       <Switch>
         <Route exact path="/">
           <Introduction />
+          <TopProjects />
           <Interests />
           <Skills />
           <Education />
@@ -32,12 +35,13 @@ function App() {
         </Route>
         <Route path="/about-me">
           <Introduction />
+          <TopProjects />
           <Interests />
           <Skills />
           <Education />
           <Footer />
         </Route>
-        <Route path="/portfolio">
+        <Route path="/projects">
           <Portfolio />
           <Footer />
         </Route>

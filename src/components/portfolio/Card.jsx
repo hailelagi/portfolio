@@ -4,8 +4,8 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 function Card(props) {
     return (
-        <div className="card">
-            <img src={props.image} alt="project one" width="150px" height="250px"/>
+        <div className={props.card}>
+            <img src={props.image} alt="project one" width={props.width} height={props.height}/>
             <h4>{props.title}</h4>
             <p>{props.summary}</p>
             <span>{props.tech}</span>

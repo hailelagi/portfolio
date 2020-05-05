@@ -9,7 +9,7 @@ import {
 
 function Interests() {
   return (
-    <section className="interests">
+    <section>
       <h2>Interests</h2>
       <div className="interest-align">
         <Link to="/portfolio">

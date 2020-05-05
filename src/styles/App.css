@@ -2,19 +2,49 @@
   margin: 0;
 }
 
-.warning{
-  background-color: orange;
-  color: white;
-  font-size: 300%;
-  text-align: center;
+.waving {
+  animation: shake 2s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  animation-delay: 0.2s;
+  animation-iteration-count: 4;
+  transform: translate3d(0px, 0px, 0px);
+  margin-right: 0.3em;
 }
 
-body{
-  background-color: #f5f5f5;
+.waving:hover {
+  cursor: pointer;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 5px);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 2px, 5px);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+/*-----------------------*/
+body {
+  background: #f5f5f5;
 }
 
 .introduction {
-  background-color: #0A3055;
+  background-color: #0a3055;
 }
 
 /*Profile*/
@@ -28,14 +58,17 @@ body{
 
 .profile h1 {
   width: 60%;
+  font-family: Apercu, "Source Sans Pro", system, system-ui, -apple-system,
+    BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
   font-size: 150%;
   font-weight: 500;
   margin: 0.3em;
   color: #f4f4f4;
 }
 #name {
-  color: #81CFE0;
+  color: #81cfe0;
   font-weight: 800;
+  font-size: 120%;
 }
 
 #profile-pic {
@@ -62,4 +95,3 @@ body{
 .call-to-action button:hover {
   background-color: #394b5c;
 }
-
