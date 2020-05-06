@@ -1,5 +1,6 @@
 footer h2{
     color: #f4f4f4;
+    background-color: #0A3055;
 }
 
 .summary{
@@ -20,8 +21,10 @@ footer h2{
 
 .interests{
     list-style-type: none;
+    text-align: justify;
     padding: 1em;
-    margin: 0.5em;
+    width: 50%;
+    margin: auto;
 }
 
 .social-media{
@@ -30,4 +33,10 @@ footer h2{
 
 .social-media a{
     padding: 0.5em;
+}
+
+@media only screen and (max-width: 700px) {
+  .interests {
+    width: 90%;
+  }
 }

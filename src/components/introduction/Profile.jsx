@@ -25,7 +25,7 @@ function Profile() {
         build. See anything you like, buy me coffee?
       </h1>
       <div className={"call-to-action"}>
-        <button>
+        <button disabled={true} style={{backgroundColor: "gray",cursor: "not-allowed"}}>
           <FontAwesomeIcon icon={faCloudDownloadAlt} size="sm" /> download my
           resume
         </button>

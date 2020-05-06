@@ -114,7 +114,7 @@
       <recent name="C:\Users\user\PycharmProjects\portfolio\src\components\introduction" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -177,7 +177,8 @@
       <workItem from="1588116609175" duration="4900000" />
       <workItem from="1588188001720" duration="1050000" />
       <workItem from="1588193767764" duration="36042000" />
-      <workItem from="1588580222473" duration="32036000" />
+      <workItem from="1588580222473" duration="32640000" />
+      <workItem from="1588719960124" duration="4873000" />
     </task>
     <servers />
   </component>

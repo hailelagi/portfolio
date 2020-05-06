@@ -23,16 +23,16 @@ function Footer() {
         </p>
         <ul className="interests">
           <li>
-            <FontAwesomeIcon icon={faCheck} color="#9ACD32" size="sm" />
+            <FontAwesomeIcon icon={faCheck} color="#9ACD32" size="sm" style={{marginRight:"0.5em"}}/>
             Web development using the MERN stack
           </li>
           <li>
-            <FontAwesomeIcon icon={faCheck} color="#9ACD32" size="sm" />
-            Simulation based optimization problems using python (sciPy, numpy,matplotlib and pandas etc)
+            <FontAwesomeIcon icon={faCheck} color="#9ACD32" size="sm" style={{marginRight:"0.5em"}}/>
+            Simulation based optimization problems using python (sciPy,numpy,matplotlib etc)
           </li>
           <li>
-            <FontAwesomeIcon icon={faCheck} color="#9ACD32" size="sm" />
-            Mobile development of simple apps using React-native or Ionic
+            <FontAwesomeIcon icon={faCheck} color="#9ACD32" size="sm" style={{marginRight:"0.5em"}}/>
+            Mobile development of simple apps using react-native
           </li>
         </ul>
         <p>

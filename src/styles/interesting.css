@@ -10,6 +10,9 @@ h3{
   color: #292929;
 }
 
+.areas h2{
+    margin-top: 1.5em;
+}
 .interest {
   display: inline-block;
   background-color: #fff;
@@ -39,4 +42,5 @@ h3{
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
+  margin-top: 3em;
 }

@@ -9,6 +9,15 @@
   align-items: center;
 }
 
+.top-project a{
+  color: black;
+}
+
+.top-project a:hover{
+  color: gray;
+}
+
+
 .aside-info h4 {
   font-size: 150%;
   color: #151513;
@@ -35,3 +44,4 @@
 .aside-info a {
   margin: 0.1em;
 }
+

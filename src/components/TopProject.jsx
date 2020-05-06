@@ -6,12 +6,11 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 function TopProject(props) {
   return (
     <div className="top-project">
-      <img
-        src={props.image}
-        alt="project one"
-        width={props.width}
-        height={props.height}
-      />
+      <picture>
+        <source media="(max-width: 800px)" srcSet="/"  />
+        <source media="(max-width: 500px)" srcSet="/"  />
+        <img src={props.image} alt="project one" width="700px" height="500px" />
+      </picture>
       <div className="aside-info">
         <h4>{props.title}</h4>
         <p>{props.summary}</p>
@@ -20,7 +19,7 @@ function TopProject(props) {
           <a href={props.code}>
             <FontAwesomeIcon icon={faGithub} size="2x" />
           </a>
-          <a href={props.code}>
+          <a href={props.link}>
             <FontAwesomeIcon icon={faExternalLinkAlt} size="2x" />
           </a>
         </div>

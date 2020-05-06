@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  faHackerrank,
+  /* faHackerrank, */
   faFreeCodeCamp,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -11,7 +11,7 @@ function Education() {
     <section className="education">
       <h2>Education</h2>
       <Timeline />
-      <h3>Programming challenges</h3>
+      <h3>Programming profile</h3>
 
       <div className="challenges">
         <a
@@ -24,13 +24,13 @@ function Education() {
             alt="code wars"
           />
         </a>
-        <a
+          {/* <a
             aria-label="hacker rank"
-          href={"https://www.hackerrank.com/obsessedyouth"}
+          href={"https://www.hackerrank.com/}
           className="challenge"
         >
           <FontAwesomeIcon icon={faHackerrank} color="#2BBE5E" size="5x" />
-        </a>
+        </a> */}
         <a
             aria-label="free code camp"
           href={"https://www.freecodecamp.org/obsessedyouth"}

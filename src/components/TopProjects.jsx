@@ -15,11 +15,9 @@ function TopProjects(props) {
         <TopProject
           image={Artboard}
           title="covid estimator"
-          summary=" A novelty COVID-19 estimator. This an eligibility assessment for the #BuildforSDG hackathon organized by andela and facebook.
-
-          "
-          width="700px"
-          height="500px"
+          summary=" A novelty COVID-19 estimator. This an eligibility assessment for the #BuildforSDG hackathon organized by andela and facebook."
+          code="https://github.com/obsessedyouth/obsessedyouth-covid-19-esitmator-js/tree/master"
+          link="https://cocky-swanson-c0a1c8.netlify.app/"
         />
       </div>
     </section>
