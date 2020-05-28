@@ -1,60 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab63bfac-5bdf-4557-8277-469b1ec6f4bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/_redirects" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/noct.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/terminal-solid-192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/terminal-solid-512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Default.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Introduction.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Skills.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TopProject.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TopProjects.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/education/Education.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/education/Timeline.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/education/TimelineItem.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/portfolio/Card.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/portfolio/Portfolio.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Artboard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/calculator.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/eyes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/javascript.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/mage.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/markdown.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/nodejs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/pointing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/profile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/python.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/quote-machine.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/science.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/waving_hand_sign_emoji.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/user.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/user.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/interests/Interest.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/interests/Interest.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/interests/Interests.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/interests/Interests.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/introduction/Introduction.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/introduction/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopNavbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/introduction/Profile.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/profile.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/serviceWorker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/interesting.css" beforeDir="false" />
-    </list>
+    <list default="true" id="ab63bfac-5bdf-4557-8277-469b1ec6f4bd" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -192,6 +139,42 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/user/PycharmProjects/portfolio/src" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

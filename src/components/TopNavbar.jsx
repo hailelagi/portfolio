@@ -1,9 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-<<<<<<< HEAD
 import styled from "styled-components";
-=======
->>>>>>> 521a2a453184378622f37d84e20db9a6d5c10a92
 
 export default class TopNavbar extends React.Component {
   constructor(props) {
@@ -15,13 +12,10 @@ export default class TopNavbar extends React.Component {
   componentDidMount() {
     window.addEventListener("scroll", this.handleScroll);
   }
-<<<<<<< HEAD
   componentWillMount() {
     window.removeEventListener("scroll", this.handleScroll);
   }
 
-=======
->>>>>>> 521a2a453184378622f37d84e20db9a6d5c10a92
   handleScroll = () => {
     if (window.scrollY >= 400) {
       this.setState({ sticky: "top-nav sticky-nav awesome-nav" });
@@ -32,21 +26,14 @@ export default class TopNavbar extends React.Component {
 
   render() {
     return (
-<<<<<<< HEAD
       <NavWrapper>
-=======
-      <nav>
->>>>>>> 521a2a453184378622f37d84e20db9a6d5c10a92
         <ul className={this.state.sticky}>
           <li>
             <NavLink to="/about-me">about me</NavLink>
           </li>
-
           <li>
             <NavLink to="/projects">projects</NavLink>
           </li>
-<<<<<<< HEAD
-
           <button style={{ marginLeft: 30 }}>dark mode ⚠️⚠️</button>
         </ul>
       </NavWrapper>
@@ -95,10 +82,3 @@ const NavWrapper = styled.nav`
     }
   }
 `;
-=======
-        </ul>
-      </nav>
-    );
-  }
-}
->>>>>>> 521a2a453184378622f37d84e20db9a6d5c10a92

@@ -3,15 +3,15 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import "./App.css";
 
-import TopNavbar from "./components/TopNavbar";
-import Introduction from "./components/Introduction";
-import Portfolio from "./components/portfolio/Portfolio";
-import Interests from "./components/interests/Interests";
-import Skills from "./components/Skills";
-import Education from "./components/education/Education";
-import Footer from "./components/Footer";
-import Default from "./components/Default";
-import TopProjects from "./components/TopProjects";
+import TopNavbar from "./components/TopNavbar.jsx";
+import Introduction from "./components/Introduction.jsx";
+import Portfolio from "./components/portfolio/Portfolio.jsx";
+import Interests from "./components/interests/Interests.jsx";
+import Skills from "./components/Skills.jsx";
+import Education from "./components/education/Education.jsx";
+import Footer from "./components/Footer.jsx";
+import Default from "./components/Default.jsx";
+import TopProjects from "./components/TopProjects.jsx";
 
 function App() {
   return (

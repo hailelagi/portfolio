@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React from "react";
 import styled from "styled-components";
 import mage from "../../src/img/mage.gif";
@@ -8,10 +7,7 @@ export default function () {
     <React.Fragment>
       <ErrorTitle>404 Page not found</ErrorTitle>
       <ImageWrapper>
-        <img
-          src={mage}
-          alt="mage"
-        />
+        <img src={mage} alt="mage" />
       </ImageWrapper>
       <FancyText>
         It seems you've gotten a little lost. That's okay.{" "}
@@ -54,18 +50,3 @@ const FancyText = styled.p`
   padding: 1em;
   font-size: 150%;
 `;
-=======
-import React, {Component} from 'react';
-
-class Default extends Component {
-    render() {
-        return (
-            <div>
-                <h1>404 Page not found</h1>
-            </div>
-        );
-    }
-}
-
-export default Default;
->>>>>>> 521a2a453184378622f37d84e20db9a6d5c10a92

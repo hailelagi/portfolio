@@ -1,28 +1,23 @@
 import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
-<<<<<<< HEAD
 import styled from "styled-components";
-=======
 
->>>>>>> 521a2a453184378622f37d84e20db9a6d5c10a92
 /*special shout out to florin-pop for this excellent
  * way to structure data in a timeline
  * curious about the original implementation?
  * https://www.florin-pop.com/blog/2019/04/how-to-create-a-timeline-with-react/*/
 
-<<<<<<< HEAD
 export default class TimelineItem extends Component {
-=======
-class TimelineItem extends Component {
->>>>>>> 521a2a453184378622f37d84e20db9a6d5c10a92
   constructor(props) {
     super(props);
     this.state = {
       data: {
         heading: "Federal University of Technology, Minna",
         text:
-          "An ongoing five year bachelor of engineering resulting in a research project into the electrochemical performance of maize straw in solid oxide direct carbon fuel cell modelled and simulated using python3 and the anaconda distribution.",
+          "An ongoing five year bachelor of engineering resulting in a research project into the electrochemical" +
+          " performance of maize straw in solid oxide direct carbon fuel cell modelled and simulated using python3 " +
+          "and the anaconda distribution.",
         date: "2015 - Present",
         category: {
           tag: "degree (b.eng)",
@@ -37,11 +32,7 @@ class TimelineItem extends Component {
   }
   render() {
     return (
-<<<<<<< HEAD
       <TimelineItemWrapper>
-=======
-      <div className="timeline-item">
->>>>>>> 521a2a453184378622f37d84e20db9a6d5c10a92
         <div className="timeline-item-content">
           <span
             className="tag"
@@ -51,7 +42,6 @@ class TimelineItem extends Component {
           </span>
           <time>{this.state.data.date}</time>
           <h5>
-<<<<<<< HEAD
             <a
               href="https://www.futminna.edu.ng/"
               target="_blank"
@@ -59,9 +49,6 @@ class TimelineItem extends Component {
             >
               {this.state.data.heading}
             </a>
-=======
-            <a href="https://www.futminna.edu.ng/">{this.state.data.heading}</a>
->>>>>>> 521a2a453184378622f37d84e20db9a6d5c10a92
           </h5>
           <p>{this.state.data.text}</p>
           <del>
@@ -78,16 +65,11 @@ class TimelineItem extends Component {
             <FontAwesomeIcon icon={faGraduationCap} color="#777" size="1x" />
           </span>
         </div>
-<<<<<<< HEAD
       </TimelineItemWrapper>
-=======
-      </div>
->>>>>>> 521a2a453184378622f37d84e20db9a6d5c10a92
     );
   }
 }
 
-<<<<<<< HEAD
 const TimelineItemWrapper = styled.div`
   /*Timeline*/
   & {
@@ -205,6 +187,3 @@ const TimelineItemWrapper = styled.div`
     }
   }
 `;
-=======
-export default TimelineItem;
->>>>>>> 521a2a453184378622f37d84e20db9a6d5c10a92

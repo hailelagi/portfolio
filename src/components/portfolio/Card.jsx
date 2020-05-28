@@ -1,5 +1,4 @@
 import React from "react";
-<<<<<<< HEAD
 import { faCode, faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faCodepen } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -78,24 +77,3 @@ const CardWrapper = styled.div`
     margin: 0.5em;
   }
 `;
-=======
-import {faCode} from "@fortawesome/free-solid-svg-icons";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-
-function Card(props) {
-    return (
-        <div className={props.card}>
-            <img src={props.image} alt="project one" width={props.width} height={props.height}/>
-            <h4>{props.title}</h4>
-            <p>{props.summary}</p>
-            <span>{props.tech}</span>
-            <div>
-                <a href={props.code}><button>Code <FontAwesomeIcon icon={faCode} size="1x"/></button></a>
-                <a href={props.deploy}><button>Deployment</button></a>
-            </div>
-        </div>
-    );
-}
-
-export default Card;
->>>>>>> 521a2a453184378622f37d84e20db9a6d5c10a92
