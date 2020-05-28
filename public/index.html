@@ -4,12 +4,12 @@
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+    <meta name="theme-color" content="#0A3055" />
     <meta
       name="description"
       content="Personal website portfolio created by Haile Lagi"
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/terminal-solid-192.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -29,10 +29,41 @@
       rel="stylesheet"
     />
     <title>Haile Lagi</title>
+    <style>
+      /*Pre load splash screen*/
+      #pre-load {
+        display: block;
+        width: 25%;
+        margin: 15rem auto auto;
+      }
+      @media only screen and (min-width: 600px) {
+        #pre-load {
+          width: 15%;
+          margin: 12rem auto auto;
+        }
+      }
+
+      /* Custom Scroll bar*/
+      ::-webkit-scrollbar {
+        width: 10px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #dddddd;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #496885;
+        border-radius: 15px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+      }
+    </style>
   </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+  <body style="background-color: #0a3055">
+    <noscript>You need to enable JavaScript to run this app. I promise I'm not doing any sneaky web stuff... :)</noscript>
+    <div id="root">
+      <img id="pre-load" src="noct.webp" alt="noct preload" />
+    </div>
     <a
       href="https://github.com/obsessedyouth/portfolio/tree/development"
       class="github-corner"

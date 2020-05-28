@@ -1,6 +1,6 @@
 {
   "short_name": "Haile Lagi-chemical engineer, programmer and web developer",
-  "name": "Personal website portfolio created by Haile Lagi",
+  "name": "Haile Lagi",
   "icons": [
     {
       "src": "favicon.ico",
@@ -21,5 +21,5 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#0a3055"
 }

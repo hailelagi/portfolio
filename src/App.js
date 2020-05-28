@@ -1,20 +1,13 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import "./styles/App.css";
-import "./styles/topnavbar.css";
-import "./styles/portfolio.css";
-import "./styles/topprojects.css";
-import "./styles/interesting.css";
-import "./styles/skills.css";
-import "./styles/education.css";
-import "./styles/footer.css";
+import "./App.css";
 
 import TopNavbar from "./components/TopNavbar";
-import Introduction from "./components/introduction/Introduction";
+import Introduction from "./components/Introduction";
 import Portfolio from "./components/portfolio/Portfolio";
 import Interests from "./components/interests/Interests";
-import Skills from "./components/skills/Skills";
+import Skills from "./components/Skills";
 import Education from "./components/education/Education";
 import Footer from "./components/Footer";
 import Default from "./components/Default";
@@ -45,6 +38,7 @@ function App() {
           <Portfolio />
           <Footer />
         </Route>
+        <Route path="/default" component={Default} />
         <Route path="*" component={Default} />
       </Switch>
     </Router>

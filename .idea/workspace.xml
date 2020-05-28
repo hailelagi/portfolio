@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab63bfac-5bdf-4557-8277-469b1ec6f4bd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/_redirects" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/noct.webp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/terminal-solid-192.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/terminal-solid-512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/Default.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/Footer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Introduction.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Skills.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/TopProject.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/TopProjects.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/education/Education.jsx" afterDir="false" />
@@ -13,22 +18,20 @@
       <change afterPath="$PROJECT_DIR$/src/components/education/TimelineItem.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/portfolio/Card.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/portfolio/Portfolio.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/skills/ProgressBar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/skills/Skill.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/skills/Skills.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/img/Artboard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/calculator.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/img/eyes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/javascript.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/mage.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/markdown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/nodejs.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/img/pointing.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/img/profile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/right_i.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/python.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/quote-machine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/science.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/img/waving_hand_sign_emoji.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/education.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/portfolio.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/skills.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/topnavbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/topprojects.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/user.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/user.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
@@ -42,15 +45,15 @@
       <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/interests/Interest.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/interests/Interest.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/interests/Interests.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/interests/Interests.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/introduction/Introduction.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/introduction/Introduction.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/introduction/Introduction.jsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/introduction/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopNavbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/introduction/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/introduction/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/introduction/Profile.jsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/img/profile.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/serviceWorker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/interesting.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/interesting.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/interesting.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,10 +110,10 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\user\PycharmProjects\portfolio\src\img" />
       <recent name="C:\Users\user\PycharmProjects\portfolio\src\components" />
-      <recent name="C:\Users\user\PycharmProjects\portfolio\src\styles" />
       <recent name="C:\Users\user\PycharmProjects\portfolio\src" />
+      <recent name="C:\Users\user\PycharmProjects\portfolio\src\img" />
+      <recent name="C:\Users\user\PycharmProjects\portfolio\src\styles" />
       <recent name="C:\Users\user\PycharmProjects\portfolio\src\components\introduction" />
     </key>
   </component>
@@ -140,8 +143,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +181,12 @@
       <workItem from="1588188001720" duration="1050000" />
       <workItem from="1588193767764" duration="36042000" />
       <workItem from="1588580222473" duration="32640000" />
-      <workItem from="1588719960124" duration="4873000" />
+      <workItem from="1588719960124" duration="5402000" />
+      <workItem from="1588744633657" duration="23408000" />
+      <workItem from="1589814583043" duration="12374000" />
+      <workItem from="1590591811606" duration="5438000" />
+      <workItem from="1590600895351" duration="1199000" />
+      <workItem from="1590650311664" duration="24455000" />
     </task>
     <servers />
   </component>
@@ -197,6 +205,14 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="27" y="93" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog/0.0.1366.768@0.0.1366.768" timestamp="1587873914646" />
+    <state x="339" y="301" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588760394143">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="339" y="301" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1588760394143" />
+    <state x="58" y="135" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590683619758">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="58" y="135" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1590683619758" />
     <state x="351" y="101" width="663" height="667" key="EditFileWatcherDialog" timestamp="1587751782369">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -205,22 +221,22 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="463" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1587751757191" />
-    <state width="603" height="216" key="GridCell.Tab.0.bottom" timestamp="1587974822843">
+    <state width="611" height="159" key="GridCell.Tab.0.bottom" timestamp="1590597426484">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="603" height="216" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1587974822843" />
-    <state width="603" height="216" key="GridCell.Tab.0.center" timestamp="1587974822843">
+    <state width="611" height="159" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1590597426484" />
+    <state width="611" height="159" key="GridCell.Tab.0.center" timestamp="1590597426483">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="603" height="216" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1587974822843" />
-    <state width="603" height="216" key="GridCell.Tab.0.left" timestamp="1587974822843">
+    <state width="611" height="159" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1590597426483" />
+    <state width="611" height="159" key="GridCell.Tab.0.left" timestamp="1590597426483">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="603" height="216" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1587974822843" />
-    <state width="603" height="216" key="GridCell.Tab.0.right" timestamp="1587974822843">
+    <state width="611" height="159" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1590597426483" />
+    <state width="611" height="159" key="GridCell.Tab.0.right" timestamp="1590597426483">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="603" height="216" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1587974822843" />
+    <state width="611" height="159" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1590597426483" />
     <state x="184" y="27" key="SettingsEditor" timestamp="1587751783846">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -229,9 +245,9 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="37" y="212" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1587874091204" />
-    <state x="4" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1588036815485">
+    <state x="4" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1588754444730">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="4" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1588036815485" />
+    <state x="4" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1588754444730" />
   </component>
 </project>
