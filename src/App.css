@@ -2,22 +2,34 @@
   margin: 0;
 }
 
-/*TODO: Centralise fonts and color theme for easy light/dark mode*/
+/*AA global color scheme supporting theme.js */
+:root {
+  --focus: #fff;
+  --background: #f5f5f5;
+  --main-color: #0a3055;
+  --title-blue: #81cfe0;
+  --light-font-color: #f4f4f4;
+  --button-blue: #394b5c;
+  --button-hover: #435c72;
+  --primary-link: #a9a9a9;
+  --badge: #007acc;
+  --dark-background: #1c2833;
+  --grey-text: #444;
+}
 
 body {
-  background: #f5f5f5 !important;
+  background: var(--background);
 }
 
 h2 {
   text-align: center;
   font-size: 150%;
   padding: 1.2em;
-  color: #f4f4f4;
-  background-color: #1c2833;
+  color: var(--light-font-color);
+  background-color: var(--dark-background);
 }
 
 h3 {
   text-align: center;
   margin: 1.5em;
-  color: #1c2833;
 }

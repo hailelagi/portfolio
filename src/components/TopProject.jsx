@@ -8,9 +8,9 @@ export default function TopProject(props) {
   return (
     <ProjectWrapper style={{ flexFlow: props.direction }}>
       <picture>
-        <source media="(max-width: 800px)" srcSet="/" />
-        <source media="(max-width: 500px)" srcSet="/" />
-        <img src={props.image} alt="project one" width="700px" height="500px" />
+        <source media="(max-width: 320px)" srcSet={props.smallPhone} />
+        <source media="(max-width: 500px)" srcSet={props.phone} />
+        <img src={props.image} alt="project" />
       </picture>
       <div className="aside-info">
         <h4>{props.title}</h4>
@@ -36,16 +36,16 @@ const ProjectWrapper = styled.div`
     align-items: center;
 
     a {
-      color: black;
+      color: ${({ theme }) => theme.projectTitle};
     }
     a:hover {
-      color: gray;
+      color: var(--primary-link);
     }
   }
 
   .aside-info h4 {
     font-size: 150%;
-    color: #151513;
+    color: ${({ theme }) => theme.projectTitle};
     margin: 1em;
   }
   .aside-info {
@@ -54,7 +54,7 @@ const ProjectWrapper = styled.div`
     width: 400px;
     height: 250px;
     text-align: justify;
-    color: #0a192f;
+    color: ${({ theme }) => theme.projectText};
     border-radius: 15px;
     display: flex;
     flex-flow: column nowrap;
@@ -69,5 +69,10 @@ const ProjectWrapper = styled.div`
   .external {
     align-self: flex-start;
     margin-top: 1em;
+  }
+  @media only screen and (max-width: 500px) {
+    & {
+      padding: 1em;
+    }
   }
 `;

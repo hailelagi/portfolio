@@ -28,7 +28,6 @@ export default function Skills() {
           <p>React</p>
           <p>Redux</p>
           <p>Jest</p>
-          <p>Node.js</p>
           <p>React-native</p>
           <p>Bootstrap</p>
           <p>Pytest</p>
@@ -38,9 +37,17 @@ export default function Skills() {
         </div>
 
         <div>
+          <h3>Databases</h3>
+          <p>Mongodb</p>
+          <p>PostgreSQL</p>
+        </div>
+
+        <div id="last">
           <h3>Tools</h3>
           <p>Git & Github</p>
+          <p>Postman</p>
           <p>Chrome DevTools</p>
+          <p>Bootstrap studio</p>
           <p>Figma</p>
         </div>
       </div>
@@ -50,11 +57,17 @@ export default function Skills() {
 
 const SkillsWrapper = styled.div`
   & {
-    background-color: #fff;
+    background-color: ${({ theme }) => theme.skillFocus};
+    color: ${({ theme }) => theme.skillTitle};
     margin: auto;
     border-radius: 8px;
     padding-bottom: 1em;
   }
+  
+  h3 {
+    color: ${({ theme }) => theme.skillTitle};
+  }
+  
 
   .top-skills {
     display: flex;
@@ -62,11 +75,25 @@ const SkillsWrapper = styled.div`
     justify-content: space-evenly;
     align-items: center;
   }
-
+  
+  #last {
+  grid-column: span 4;
+  }
+  
   .other-skills {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: auto;
     text-align: center;
   }
+  
+  @media only screen and (max-width: 500px) {
+    .other-skills {
+     grid-template-columns: 1fr 1fr;
+     text-align: center;
+    }
+    
+    #last {
+      grid-column: 2;
+    }
 `;

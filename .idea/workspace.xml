@@ -57,8 +57,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\user\PycharmProjects\portfolio\src\components" />
       <recent name="C:\Users\user\PycharmProjects\portfolio\src" />
+      <recent name="C:\Users\user\PycharmProjects\portfolio\src\components" />
       <recent name="C:\Users\user\PycharmProjects\portfolio\src\img" />
       <recent name="C:\Users\user\PycharmProjects\portfolio\src\styles" />
       <recent name="C:\Users\user\PycharmProjects\portfolio\src\components\introduction" />
@@ -134,6 +134,10 @@
       <workItem from="1590591811606" duration="5438000" />
       <workItem from="1590600895351" duration="1199000" />
       <workItem from="1590650311664" duration="24455000" />
+      <workItem from="1590832256873" duration="4606000" />
+      <workItem from="1592056142603" duration="2009000" />
+      <workItem from="1593359015685" duration="17247000" />
+      <workItem from="1593468774494" duration="20674000" />
     </task>
     <servers />
   </component>
@@ -192,10 +196,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="339" y="301" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1588760394143" />
-    <state x="58" y="135" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590683619758">
+    <state x="58" y="135" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593377658239">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="58" y="135" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1590683619758" />
+    <state x="58" y="135" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1593377658239" />
     <state x="351" y="101" width="663" height="667" key="EditFileWatcherDialog" timestamp="1587751782369">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

@@ -23,8 +23,8 @@ export default function () {
 }
 
 const ErrorTitle = styled.h1`
-  color: #f4f4f4;
-  background-color: #0a3055;
+  color: var(--light-font-color);
+  background-color: var(--main-color);
   text-align: center;
   padding: 1em;
 `;

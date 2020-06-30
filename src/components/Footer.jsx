@@ -115,14 +115,14 @@ export default function Footer() {
 
 const FooterWrapper = styled.footer`
   & h2 {
-    color: #f4f4f4;
-    background-color: #0a3055;
+    color: var(--light-font-color);
+    background-color: ${({ theme }) => theme.mainColor};
   }
 
   .summary {
     text-align: center;
-    color: #f4f4f4;
-    background-color: #0a3055;
+    color: var(--light-font-color);
+    background-color: ${({ theme }) => theme.mainColor};
     padding: 1em;
   }
 
@@ -132,7 +132,7 @@ const FooterWrapper = styled.footer`
 
   .summary a {
     margin: 0.1em;
-    color: #a9a9a9;
+    color: var(--primary-link);
   }
 
   .interests {

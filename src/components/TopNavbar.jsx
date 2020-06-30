@@ -1,6 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
 
 export default class TopNavbar extends React.Component {
   constructor(props) {
@@ -12,17 +14,17 @@ export default class TopNavbar extends React.Component {
   componentDidMount() {
     window.addEventListener("scroll", this.handleScroll);
   }
-  componentWillMount() {
+  componentWillUnmount() {
     window.removeEventListener("scroll", this.handleScroll);
   }
 
-  handleScroll = () => {
+  handleScroll() {
     if (window.scrollY >= 400) {
       this.setState({ sticky: "top-nav sticky-nav awesome-nav" });
     } else {
       this.setState({ sticky: "top-nav" });
     }
-  };
+  }
 
   render() {
     return (
@@ -34,7 +36,13 @@ export default class TopNavbar extends React.Component {
           <li>
             <NavLink to="/projects">projects</NavLink>
           </li>
-          <button style={{ marginLeft: 30 }}>dark mode ⚠️⚠️</button>
+          <button onClick={this.props.toggle}>
+            {this.props.theme === "dark" ? (
+              <FontAwesomeIcon icon={faSun} size="lg" color="#f4f4f4" />
+            ) : (
+              <FontAwesomeIcon icon={faMoon} size="lg" color="#f4f4f4" />
+            )}
+          </button>
         </ul>
       </NavWrapper>
     );
@@ -43,12 +51,18 @@ export default class TopNavbar extends React.Component {
 
 const NavWrapper = styled.nav`
   /*Introduction navigation */
+  ul {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+  }
+
   li,
   li a {
     list-style-type: none;
     text-decoration: none;
     margin-left: 1.2em;
-    color: #f4f4f4;
+    color: var(--light-font-color);
   }
 
   li a:hover {
@@ -58,7 +72,7 @@ const NavWrapper = styled.nav`
   .top-nav {
     display: flex;
     padding: 1em;
-    background-color: #0a3055;
+    background-color: ${({ theme }) => theme.mainColor};
   }
 
   .sticky-nav {
@@ -76,9 +90,27 @@ const NavWrapper = styled.nav`
     text-decoration: underline;
   }
 
+  button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 2em;
+  }
+
+  button:hover,
+  button:focus {
+    outline: none;
+  }
+
+  button:active {
+    transform: scale(2.5);
+    transition: ease-in-out 2s;
+  }
+
   @media only screen and (max-width: 320px) {
-    .top-nav {
-      flex-flow: column;
+    li,
+    button {
+      margin-left: 1em;
     }
   }
 `;

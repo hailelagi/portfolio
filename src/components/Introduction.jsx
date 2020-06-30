@@ -20,7 +20,7 @@ export default function Introduction() {
             <img
               src={waving}
               width="30px"
-              alt="waving emoji hand"
+              alt="waving hand emoji"
               className="waving"
             />
             I'm <span id="name">Haile Lagi</span> - chemical engineering
@@ -29,8 +29,8 @@ export default function Introduction() {
           </h1>
           <div className={"call-to-action"}>
             <button
-              disabled={true}
-              style={{ backgroundColor: "gray", cursor: "not-allowed" }}
+              disabled
+              style={{ cursor: "not-allowed" }}
             >
               <FontAwesomeIcon icon={faCloudDownloadAlt} size="sm" /> download
               my resume
@@ -85,7 +85,7 @@ const SectionWrapper = styled.section`
   }
 
   & {
-    background-color: #0a3055;
+    background-color: ${({ theme }) => theme.mainColor};
   }
 
   /*Profile*/
@@ -104,10 +104,12 @@ const SectionWrapper = styled.section`
     font-size: 150%;
     font-weight: 500;
     margin: 0.3em;
-    color: #f4f4f4;
+
+    color: var(--light-font-color);
   }
+
   #name {
-    color: #81cfe0;
+    color: var(--title-blue);
     font-weight: 800;
     font-size: 120%;
   }
@@ -121,8 +123,8 @@ const SectionWrapper = styled.section`
 
   .call-to-action button {
     margin: 1em;
-    background: #394b5c;
-    color: #fff;
+    background: ${({ theme }) => theme.buttonBlue};
+    color: var(--light-font-color);
     padding: 1em;
     border-radius: 2px;
     text-transform: uppercase;
@@ -134,6 +136,18 @@ const SectionWrapper = styled.section`
   }
 
   .call-to-action button:hover {
-    background-color: #435c72;
+    background-color: var(--button-hover);
+  }
+
+  @media only screen and (max-width: 500px) {
+    .profile h1 {
+      width: 78%;
+    }
+    .call-to-action {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+    }
   }
 `;

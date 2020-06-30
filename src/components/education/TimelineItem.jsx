@@ -40,7 +40,7 @@ export default class TimelineItem extends Component {
           >
             {this.state.data.category.tag}
           </span>
-          <time>{this.state.data.date}</time>
+          <span id="date">{this.state.data.date}</span>
           <h5>
             <a
               href="https://www.futminna.edu.ng/"
@@ -57,10 +57,10 @@ export default class TimelineItem extends Component {
               target="_blank"
               rel="noopener noreferrer"
             >
-              {this.state.data.link.text}
+              {this.state.data.link.text} {" "}
+              (suspended due to covid-19)
             </a>
           </del>
-          <span>(suspended due to covid-19)</span>
           <span className="circle">
             <FontAwesomeIcon icon={faGraduationCap} color="#777" size="1x" />
           </span>
@@ -92,7 +92,7 @@ const TimelineItemWrapper = styled.div`
   */
 
   .timeline-item-content {
-    background-color: #fff;
+    background-color: ${({ theme }) => theme.focus};
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
     padding: 15px;
@@ -102,7 +102,7 @@ const TimelineItemWrapper = styled.div`
   /*pin*/
   .timeline-item-content::after {
     content: " ";
-    background-color: #fff;
+    background-color: ${({ theme }) => theme.focus};
     box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.2);
     position: absolute;
     right: -7.5px;
@@ -121,7 +121,7 @@ const TimelineItemWrapper = styled.div`
 
   /*badge*/
   .timeline-item-content .tag {
-    color: #fff;
+    color: ${({ theme }) => theme.skillFocus};
     font-size: 12px;
     font-weight: bold;
     top: 5px;
@@ -159,7 +159,7 @@ const TimelineItemWrapper = styled.div`
 
   /*circle pinned*/
   .timeline-item-content .circle {
-    background-color: #fff;
+    background-color: ${({ theme }) => theme.skillFocus};
     border: 3px solid #777;
     border-radius: 50%;
     position: absolute;
@@ -174,6 +174,15 @@ const TimelineItemWrapper = styled.div`
     left: -40px;
   }
 
+  #date {
+    font-weight: 700;
+    color: #939393;
+  }
+  
+  p {
+    color: ${({ theme }) => theme.projectText} ;
+  }
+
   @media only screen and (max-width: 500px) {
     & {
       width: 85%;
@@ -184,6 +193,12 @@ const TimelineItemWrapper = styled.div`
     }
     .timeline-item-content {
       padding-top: 2em;
+    }
+  }
+
+  @media only screen and (max-width: 425px) {
+    & {
+      width: 70%;
     }
   }
 `;

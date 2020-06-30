@@ -8,12 +8,14 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import styled from "styled-components";
 
+
 export default function Interests() {
   return (
     <InterestsWrapper>
       <h2>Interests</h2>
       <div className="interests">
-        <Link to="/portfolio">
+
+        <Link to="/projects">
           <Interest
             title="Web development"
             icon={faLaptopCode}
@@ -24,7 +26,7 @@ export default function Interests() {
             Browse my web development projects created with &#10084; "
           />
         </Link>
-        <Link to="/portfolio">
+        <Link to="/projects">
           <Interest
             title="Scientific computing"
             icon={faChartLine}
@@ -34,11 +36,10 @@ export default function Interests() {
              computational models, and computer simulations here!"
           />
         </Link>
-        <Link to="/portfolio">
+        <Link to="/projects">
           <Interest
             title="Mobile development"
             icon={faMobileAlt}
-            color="#1c1e21"
             about="So I have this brilliant app idea that's gonna change the world!
             Oh really? Let's talk &#36;&#36;&#36; I make simple apps that you can
             use on your phone, mostly for fun and personal use thanks to the awesome
@@ -61,6 +62,6 @@ const InterestsWrapper = styled.section`
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 3em;
+    margin: 3em;
   }
 `;

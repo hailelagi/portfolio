@@ -17,7 +17,7 @@ import eyes from "../../img/eyes.png";
 import science from "../../img/science.png";
 import calculator from "../../img/calculator.png";
 import quote from "../../img/quote-machine.png";
-import markdown from "../../img/markdown.png";
+import pomodoro from "../../img/pomodoro.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styled from "styled-components";
 
@@ -28,23 +28,18 @@ export default function Portfolio() {
         <h1>Projects</h1>
         <p>
           I come from a background in science & engineering{" "}
-          <img src={science} width="30px" alt="pointing emoji hand" /> and
-          combine technical knowledge of software with analytical problem
-          solving to build consistently efficient and scalable software to solve
-          human problems. See for yourself
-          <img
-            src={eyes}
-            width="30px"
-            alt="pointing emoji hand"
-            className="emoji"
-          />
+          <img src={science} width="30px" alt="scientist emoji" /> and combine
+          technical knowledge of software with analytical problem solving to
+          build consistently efficient and scalable software to solve human
+          problems. See for yourself
+          <img src={eyes} width="30px" alt="eyes emoji" className="emoji" />
         </p>
         <p>
           Reach out
           <img
             src={pointing}
             width="30px"
-            alt="pointing emoji hand"
+            alt="pointing hand emoji"
             className="emoji"
           />
           <a
@@ -72,7 +67,7 @@ export default function Portfolio() {
           <Card
             title="Calculator"
             height="300px"
-            summary="A react javascript calculator"
+            summary="A react.js calculator"
             image={calculator}
             code="https://codepen.io/obsessedyouth/pen/wvKOLQN"
             deploy="https://codepen.io/obsessedyouth/full/wvKOLQN"
@@ -86,12 +81,12 @@ export default function Portfolio() {
             deploy="https://codepen.io/obsessedyouth/full/yLYwJwe"
           />
           <Card
-            title="Markdown Preview"
+            title="Pomodoro Clock"
             height="300px"
-            summary="A simple markdown previewer"
-            image={markdown}
-            code="https://codepen.io/obsessedyouth/pen/zYvbNeZ"
-            deploy="https://codepen.io/obsessedyouth/full/zYvbNeZ"
+            summary="Simple productivity timer"
+            image={pomodoro}
+            code="https://codepen.io/obsessedyouth/pen/mdegamz"
+            deploy="https://codepen.io/obsessedyouth/full/mdegamz"
           />
         </div>
       </article>
@@ -154,8 +149,8 @@ const PortfolioWrapper = styled.section`
   }
 
   header {
-    color: #f4f4f4;
-    background-color: #0a3055;
+    color: var(--light-font-color);
+    background-color: ${({ theme }) => theme.mainColor};
     text-align: center;
     font-family: Helvetica, Arial, sans-serif;
     padding-bottom: 2em;
@@ -188,6 +183,7 @@ const PortfolioWrapper = styled.section`
 
   .stack svg {
     margin: 0.2em;
+    color: ${({ theme }) => theme.stack};
   }
 
   .cards {
@@ -195,5 +191,11 @@ const PortfolioWrapper = styled.section`
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+  }
+
+  @media only screen and (max-width: 325px) {
+    .stack svg {
+      margin: 0.1em;
+    }
   }
 `;

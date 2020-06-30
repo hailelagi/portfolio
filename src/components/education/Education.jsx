@@ -50,19 +50,23 @@ export default function Education() {
 }
 
 const EducationWrapper = styled.section`
-  & h2 {
+  h2 {
     margin-top: 1em;
   }
 
-  & .challenge {
+  h3 {
+    color: ${({ theme }) => theme.skillTitle};
+  }
+
+  .challenge {
     margin: 1em 2.5em;
   }
 
-  & .challenges {
+  .challenges {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #fff;
+    background-color: ${({ theme }) => theme.focus};
   }
 `;

@@ -1,0 +1,35 @@
+// theme.js
+export const lightTheme = {
+  focus: "#fff",
+  background: "#f5f5f5",
+  mainColor: "#0a3055",
+  titleBlue: "#81cfe0",
+  lightFontColor: "#f4f4f4",
+  projectTitle: "#151513",
+  projectText: "#0a192f",
+  interestText: "#1c1e21",
+  skillFocus: "#fff",
+  skillTitle: "#1c2833",
+  buttonBlue: "#394b5c",
+  primaryLink: "#a9a9a9",
+  badge: "#007acc",
+  stack: "#151513",
+};
+
+export const darkTheme = {
+  focus: "#1c2833",
+  background: "#151f28",
+  mainColor: "#0C2231",
+  titleBlue: "#81cfe0",
+  lightFontColor: "#939393",
+  projectTitle: "#f4f4f4",
+  projectText: "#939393",
+  interestText: "#f4f4f4",
+  skillFocus: "#151f28",
+  skillTitle: "#f4f4f4",
+  buttonBlue: "#1C2A43",
+  buttonHover: "#435c72",
+  primaryLink: "#a9a9a9",
+  badge: "#007acc",
+  stack: "#f4f4f4",
+};

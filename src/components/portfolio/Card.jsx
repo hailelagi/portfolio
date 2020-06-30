@@ -38,7 +38,7 @@ const CardWrapper = styled.div`
     flex-flow: column nowrap;
     margin: 1em;
     width: 22em;
-    background-color: #fff;
+    background-color: ${({ theme }) => theme.focus};
     border: none;
     box-shadow: 0 0 113px -50px rgba(56, 56, 56, 0.88);
     text-align: center;
@@ -52,21 +52,26 @@ const CardWrapper = styled.div`
 
   h4 {
     font-size: 120%;
-    color: #444;
+    color: ${({ theme }) => theme.projectTitle};
   }
 
   p {
     width: 80%;
     margin: auto;
     font-size: 90%;
-    color: #444;
+    color: ${({ theme }) => theme.projectText};
   }
 
-  a {
+  svg {
     margin: 0.2em;
+    color: ${({ theme }) => theme.projectTitle};
   }
+  svg:hover {
+    color: var(--primary-link);
+  }
+
   .badge {
-    background-color: #007acc;
+    background-color: var(--badge);
     margin: 0.2em;
     padding: 0.2em;
     border-radius: 8px;
@@ -75,5 +80,8 @@ const CardWrapper = styled.div`
   }
   .external {
     margin: 0.5em;
+  }
+  @media only screen and (max-width: 325px) {
+    width: 18em;
   }
 `;
